@@ -1,3 +1,4 @@
-import bottles
+"""Calls bottle song """
+from bottles import bottle_song
 
-print(bottles.bottle_song(99))
+print(bottle_song(99))

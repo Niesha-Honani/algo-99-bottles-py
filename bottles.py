@@ -1,8 +1,9 @@
+"""Function to countdown the"""
 def bottle_song(bottles):
-    # write your code here!
+    """function counts down bottles and returns a final statement"""
     count = int(bottles)
     
-    for i in range(bottles):
+    for __ in range(bottles):
     
         if count == 2:
             print(f"{count} bottles of beer on the wall, {count} bottles of beer.")
